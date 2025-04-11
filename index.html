@@ -1,0 +1,127 @@
+<!DOCtype html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  
+  <body>
+      <!-- START NAV -->
+  
+      <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <!-- END NAV -->
+  
+      <!-- START WELCOME SECTION -->
+  
+      <section id="welcome-section" class="welcome-section">
+        <h1>About Me</h1>
+        <p>Hi, I am a web developer!</p>
+      </section>
+  
+      <!-- END WELCOME SECTION -->
+  
+      <!-- START PROJECTS SECTION -->
+  
+      <section id="projects" class="projects-section">
+
+        <h2 class="projects-section-header">Some Demo Projects</h2>
+        <div class="projects-grid">
+          <a href="https://codepen.io/Shabnaj-L/pen/ZEmZXyK" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnPcEuVcy1UvW76zKWnoFvtU1InDAk8pGovcuKVO_VlXRZHZfHt96uwCn8cMWICKwp-Q&usqp=CAU" alt="project1" />
+            <p class="project-title"><span class="code">&lt;</span> 
+              Creating A Mailing List Opt-In
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a href="https://codepen.io/Shabnaj-L/pen/eYbMOjO" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://preview.redd.it/anyone-elses-phone-filled-with-photos-of-their-pet-v0-a416ktlysjbc1.jpeg?auto=webp&s=1b0e39f2f1b5a730c3b314f34bfc874e81c477f2" alt="project2" />
+            <p class="project-title"><span class="code">&lt;</span> 
+              Photo Gallery<span class="code">&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/Shabnaj-L/pen/jEOvMrJ" target="_blank" class="project project-tile">
+            <img class="project-image" src="data:image/jpeg;base64,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" alt="project3" />
+            <p class="project-title"><span class="code">&lt;</span> 
+              Happy Penguin<span class="code">&#47;&gt;</span></p>
+          </a>
+          
+
+        </div>
+
+        <a href="https://codepen.io/Shabnaj-L/pens/public" class="btn btn-show-all" target="_blank">
+          Show All<i class="fas fa-chevron-right"></i></a>
+      
+      </section>
+  
+      <!-- END PROJECTS SECTION -->
+  
+      <!-- START CONTACT SECTION -->
+  
+      <section id="contact" class="contact-section">
+        <div class="conatact-section-header">
+          <h2>Let's connect!</h2>
+          <p>What's your coffee preference?</p>
+        </div>
+
+        <div class="contact-links">
+          <a id="profile-link" href="https://github.com/shabnajL" target="_blank" class="btn contact-details">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+
+          <a href="https://gmail.com" target="_blank" class="btn contact-details">
+            <i class="fab fa-email"></i> Email
+          </a>
+
+          <a href="tel:111-111-1111" class="btn contact-details">
+            <i class="fab fa-mobile-alt"></i> Direct Calls
+          </a>
+        </div>
+        
+      </section>
+  
+      <!-- END CONTACT SECTION -->
+  
+      <!-- START FOOTER SECTION -->
+      <footer>
+        <p>
+          &copy; Created as practice <a href="#" target="_blank">
+            Personal Portfolio <i class="fab fa-at"></i>
+          </a>
+        </p>
+
+      </footer>
+      
+  
+      <!-- END FOOTER SECTION -->
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+
+      </script>
+  </body>
+  </html>
